@@ -77,6 +77,14 @@
 
 % Slide 1
 \begin{frame}[plain]
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[anchor=north west,inner sep=0pt]
+      at ([xshift=0.65cm,yshift=-0.48cm]current page.north west)
+      {\includegraphics[trim={8bp 0bp 4bp 3bp},clip,height=0.85cm]{logo_centralesupelec.png}};
+    \node[anchor=north east,inner sep=0pt]
+      at ([xshift=-0.65cm,yshift=-0.48cm]current page.north east)
+      {\includegraphics[trim={10bp 11bp 10bp 12bp},clip,height=0.85cm]{logo_geeps.png}};
+  \end{tikzpicture}
   \titlepage
 \end{frame}
 
